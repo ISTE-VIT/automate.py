@@ -17,7 +17,7 @@ from selyt import *
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-#print(voices[1].id)
+#print(voices[1].id) '''To get the list of voices present in your system '''
 engine.setProperty('voice',voices[1].id)
 
 def speak(audio):
@@ -110,7 +110,7 @@ if __name__ == '__main__':
 
         elif "open" in text and "code" in text:
             speak("Opening Visual Studio Code")
-            codePath = "C:\\Users\\pvvha\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "C:\\Users\\pvvha\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" #Path of the application
             os.startfile(codePath)
 
         elif "cpu stats" in text:
@@ -160,7 +160,7 @@ if __name__ == '__main__':
             speak(file.read())
 
         elif "news" in text:
-            api_address = "https://newsapi.org/v2/top-headlines?country=in&apiKey=00f7f96bb11849c4bda8e1b15c5a8cb8"
+            api_address = "https://newsapi.org/v2/top-headlines?country=in&apiKey=put your newsapi key here"
 
             response = requests.get(api_address)
             news_json = json.loads(response.text)
