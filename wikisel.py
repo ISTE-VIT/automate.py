@@ -14,4 +14,4 @@ class info():
         enter.click()
 
 # assit = info()
-# assit.get_info('Issac Newton')
+# assit.get_info('Topic name which you would like to ')
