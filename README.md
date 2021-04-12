@@ -1,6 +1,6 @@
 <p align="center">
  <img src="https://user-images.githubusercontent.com/71590944/111881788-33353b80-89d8-11eb-9db1-746eba087b05.png" > <br> 
- <img src="https://user-images.githubusercontent.com/71590944/111882051-63310e80-89d9-11eb-95ed-a6270b3d25f9.jpeg"> <br>
+ <img src="https://user-images.githubusercontent.com/71590944/114431685-68027000-9bdd-11eb-9894-c9dabeca0b61.png"> <br>
 </p>
 
 # Automate.py
